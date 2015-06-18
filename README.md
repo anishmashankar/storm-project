@@ -1,6 +1,6 @@
 # Calculation of TopN Hashtags in real time using Apache Storm
 ## Introduction
-I have takes the course [ud381 - Real Time Analytics with Apache Storm](https://www.udacity.com/course/real-time-analytics-with-apache-storm--ud381)  on udacity in the summer of 2015. With it, I created a project that calculates trending hashtags on a twitter stream. The trending hashtags are shown as a word cloud on a web application powered by [Flask](http://flask.pocoo.org) and [d3.js](http://d3js.org/). The communication between Storm and the web application located in the viz folder, is done using [redis](http://redis.io).
+I have taken the course [ud381 - Real Time Analytics with Apache Storm](https://www.udacity.com/course/real-time-analytics-with-apache-storm--ud381)  on udacity in the summer of 2015. With it, I created a project that calculates trending hashtags on a twitter stream. The trending hashtags are shown as a word cloud on a web application powered by [Flask](http://flask.pocoo.org) and [d3.js](http://d3js.org/). The communication between Storm and the web application located in the viz folder, is done using [redis](http://redis.io).
 
 ## Steps to set up
 Before you can run this project on storm, you will need some API keys that twitter provides. For that, an
